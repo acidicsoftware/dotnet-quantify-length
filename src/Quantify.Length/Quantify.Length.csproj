@@ -25,4 +25,9 @@
     </AssemblyAttribute>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Quantify" Version="0.1.1" />
+    <PackageReference Include="Quantify.Repository.Enum" Version="0.1.1" />
+  </ItemGroup>
+
 </Project>
