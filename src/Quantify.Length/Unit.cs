@@ -2,9 +2,13 @@
 
 namespace Quantify.Length
 {
+    /// <summary>
+    /// Units representing lengths.
+    /// </summary>
+    [BaseUnit(Unit.Metre)]
     public enum Unit
     {
-        // Length - SI
+        // SI Units
         [Unit("0.000000000000000000000001")]
         Yoctometre = 10,
         [Unit("0.000000000000000000001")]
@@ -25,7 +29,6 @@ namespace Quantify.Length
         Centimetre = 18,
         [Unit("0.1")]
         Decimetre = 19,
-        [BaseUnit]
         Metre = 20,
         [Unit("10")]
         Decametre = 21,
@@ -48,38 +51,41 @@ namespace Quantify.Length
         [Unit("1000000000000000000000000")]
         Yottametre = 30,
 
-        // Length - Imperial
-        [Unit("0.000000352778")]
-        Point = 50,
-        [Unit("0.004233")]
-        Pica = 51,
+        // Imperial Unit  
         [Unit("0.0000254")]
-        Thou = 52,
+        Thou = 50,
         [Unit("0.0254")]
-        Inch = 53,
+        Inch = 51,
         [Unit("0.3048")]
-        Foot = 54,
+        Foot = 52,
         [Unit("0.9144")]
-        Yard = 55,
+        Yard = 53,
         [Unit("20.1168")]
-        Chain = 56,
+        Chain = 54,
         [Unit("201.168")]
-        Furlong = 57,
+        Furlong = 55,
         [Unit("1609.344")]
-        Mile = 58,
+        Mile = 56,
         [Unit("4828.032")]
-        League = 59,
+        League = 57,
         [Unit("1.852")]
-        Fathom = 60,
+        Fathom = 58,
         [Unit("185.2")]
-        Cable = 61,
+        Cable = 59,
         [Unit("1852")]
-        NauticalMile = 62,
+        NauticalMile = 60,
         [Unit("0.201168")]
-        Link = 63,
+        Link = 61,
         [Unit("5.0292")]
-        Rod = 64
+        Rod = 62,
 
-        // Length - Astronomical Units
+        // Astronomical Units
+
+
+        // Typography
+        //[Unit("0.000000352778")]
+        //Point = 100,
+        //[Unit("0.004233")]
+        //Pica = 101
     }
 }
