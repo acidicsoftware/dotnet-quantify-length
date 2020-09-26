@@ -1,5 +1,7 @@
 # Quantify.Length
 
+![Quantify.Length Logo](assets/quantify-length-logo.svg)
+
 Quantify.Length makes it easy to work with lengths, when multiple units are in play.
 
 ```csharp
