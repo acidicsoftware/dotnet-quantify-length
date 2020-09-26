@@ -1,6 +1,6 @@
 # Quantify.Length
 
-![Quantify.Length Logo](assets/quantify-length-logo.svg)
+<img src="assets/quantify-length-logo.svg" height="180px" width="180px" align="center" />
 
 Quantify.Length makes it easy to work with lengths, when multiple units are in play.
 
