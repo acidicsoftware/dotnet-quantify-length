@@ -1,4 +1,4 @@
-# Quantify.Length
+# Quantify.Length ![ci branch parameter](https://github.com/acidicsoftware/dotnet-quantify-length/workflows/Continuous%20Integration/badge.svg?branch=trunk)
 
 <img src="assets/quantify-length-logo.svg" height="180px" width="180px" align="center" />
 
