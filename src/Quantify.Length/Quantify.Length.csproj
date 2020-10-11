@@ -14,6 +14,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
     <PackageIcon>quantify-length-logo.png</PackageIcon>
+    <Description>Work with lengths, while multiple units are in play</Description>
   </PropertyGroup>
 
   <ItemGroup>
