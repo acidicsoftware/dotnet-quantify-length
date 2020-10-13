@@ -14,7 +14,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
     <PackageIcon>quantify-length-logo.png</PackageIcon>
-    <Description>Work with lengths, while multiple units are in play</Description>
+    <Description>Makes it easy to work with lengths, when multiple different units are involved</Description>
+    <Title>Quantify Length</Title>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Quantify" Version="0.1.12" />
-    <PackageReference Include="Quantify.Repository.Enum" Version="0.1.8" />
+    <PackageReference Include="Quantify" Version="1.0.0" />
+    <PackageReference Include="Quantify.Repository.Enum" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,7 +2,7 @@
 
 <img src="assets/quantify-length-logo.png" height="180px" width="180px" align="center" />
 
-Quantify.Length makes it easy to work with lengths, when multiple units are in play.
+Quantify.Length makes it easy to work with lengths, when multiple different units are involved.
 
 ```csharp
 var lengthInKilometers = Length.Create(11.2, Unit.Kilometre);
