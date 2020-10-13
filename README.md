@@ -11,42 +11,23 @@ var lengthInMiles = Length.Create(5, Unit.Mile);
 var totalLengthInKilometers = lengthInKilometers + lengthInMiles;
 ```
 
-For more information about how quantities works and what features are available, please see [Quantify](https://github.com/acidicsoftware/dotnet-quantify).
+For more information about the Quantify framework and what features are available, please see [Quantify](https://github.com/acidicsoftware/dotnet-quantify).
 
 ## Length and PreciseLength
 
 Quantify.Length contains two different class for working with lengths.
 
-In [Length](src/Quantify.Length/Length.cs) the quantity value is stored as a `double`. This means that the class is optimised towards performance. As a result of this round-off errors might occur.
+[Length](src/Quantify.Length/Length.cs) stores the quantity values as a `double`. This means that class is optimized towards performace instead of precision. As a result of this round-off errors might occur.
 
-In [PreciseLength](src/Quantify.PreciseLength/PreciseLength.cs) the quantity value is stored as a `decimal`, which is optimized towards precision. The consequence of this is a slight performance hit when doing calculations.
+[PreciseLength](src/Quantify.PreciseLength/PreciseLength.cs) stores the quantity value as a `decimal`, which is optimized towards precision instead of performance. The consequence of this is a slight performance hit when doing calculations, but round-off errors are avoided.
 
 ## Supported Units
 
-The following unit are supported in the latest version of the library.
+The following units are supported in the latest version. The units can also be found in [Unit](src/Quantify.Length/Unit.cs).
 
 | SI | Imperial | Typographic  (Planned) | Astronomical (Planned) |
 | :--- | :--- | :--- | :--- |
-| Yoctometre | Thou | |
-| Zeptometre | Inch | |
-| Attometre | Foot | |
-| Femtometre | Yard | |
-| Picometre | Chain | |
-| Nanometre | Furlong | |
-| Micrometre | Mile | |
-| Millimetre | League | |
-| Centimetre | Fathom | |
-| Decimetre | Cable | |
-| Metre | NauticalMile | |
-| Decametre | Link | |
-| Hectometre | Rod | |
-| Kilometre | | |
-| Megametre | | |
-| Gigametre | | |
-| Terametre | | |
-| Petametre | | |
-| Exametre | | |
-| Zettametre | | |
-| Yottametre | | |
+| <ul><li>Yoctometre</li><li>Zeptometre</li><li>Attometre</li><li>Femtometre</li><li>Picometre</li><li>Nanometre</li><li>Micrometre</li><li>Millimetre</li><li>Centimetre</li><li>Decimetre</li><li>Metre</li><li>Decametre</li><li>Hectometre</li><li>Kilometre</li><li>Megametre</li><li>Gigametre</li><li>Terametre</li><li>Petametre</li><li>Exametre</li><li>Zettametre</li><li>Yottametre</li></ul> | <ul><li>Thou</li><li>Inch</li><li>Foot</li><li>Yard</li><li>Chain</li><li>Furlong</li><li>Mile</li><li>League</li><li>Fathom</li><li>Cable</li><li>Nautical Mile</li><li>Link</li><li>Rod</li></ul> |
 
-See [Unit](src/Quantify.Length/Unit.cs) for more details. 
+*© Copyright 2020 Michel Gammelgaard. All rights reserved. Provided under the [MIT license](LICENSE).*
+*Ruler icon by Michel Gammelgaard. © Copyright 2020 Michel Gammelgaard. All rights reserved.*
