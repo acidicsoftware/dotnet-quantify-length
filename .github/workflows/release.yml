@@ -32,7 +32,9 @@ jobs:
       - name: Pack
         run: dotnet pack ./src/Quantify.Length/Quantify.Length.csproj --no-restore --configuration Release --no-build --output ./release/
 
+      - run: Push-Location ./release/
+
       - name: Release
-        run: Push-Location ./release/
         run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
-        run: Pop-Location
+        
+      - run: Pop-Location
