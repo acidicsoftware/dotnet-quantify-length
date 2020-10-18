@@ -80,6 +80,26 @@ namespace Quantify.Length
         Rod = 62,
 
         // Astronomical Units
+        [Unit("149597870700")]
+        AstronomicalUnit = 100,
+        [Unit("384402000")]
+        LunarDistance = 101,
+        [Unit("30857000000000000")]
+        Parsec = 110,
+        [Unit("30857000000000000000")]
+        KiloParsec = 111,
+        [Unit("30857000000000000000000")]
+        MegaParsec = 112,
+        [Unit("30857000000000000000000000")]
+        GigaParsec = 113,
+        [Unit("9460700000000000")]
+        LightYear = 120,
+        [Unit("9460700000000000000")]
+        KiloLightYear = 121,
+        [Unit("9460700000000000000000")]
+        MegaLightYear = 122,
+        [Unit("9460700000000000000000000")]
+        GigaLightYear = 123
 
 
         // Typography
