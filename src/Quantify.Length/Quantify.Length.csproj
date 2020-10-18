@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <Version>1.0.0</Version>
     <Authors>Michel Gammelgaard</Authors>
     <Company>Acidic Software</Company>
     <Product>Quantify Length</Product>
@@ -10,12 +9,14 @@
     <RepositoryUrl>https://github.com/acidicsoftware/dotnet-quantify-length</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Quantify;Quantity;Unit;Length;Distance;Converting;Converter</PackageTags>
-    <PackageLicenseFile></PackageLicenseFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
     <PackageIcon>quantify-length-logo.png</PackageIcon>
     <Description>Makes it easy to work with lengths, when multiple different units are involved</Description>
     <Title>Quantify Length</Title>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MinVer" Version="2.3.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Quantify" Version="1.0.0" />
     <PackageReference Include="Quantify.Repository.Enum" Version="1.0.0" />
   </ItemGroup>
